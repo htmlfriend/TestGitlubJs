@@ -1,0 +1,27 @@
+{
+  "name": "@codeceptjs/examples",
+  "version": "1.1.2",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps --plugins allure"
+  },
+  "keywords": [],
+  "author": "kaflan, davert, mnmlsniper",
+  "license": "ISC",
+  "dependencies": {
+    "check-tests": "^0.2.5",
+    "dotenv": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/otusQA/cjsallure.git"
+  },
+  "homepage": "https://gitlab.com/otusQA/cjsallure",
+  "description": "",
+  "devDependencies": {
+    "@codeceptjs/configure": "^0.4.0",
+    "@codeceptjs/ui": "^0.2.0",
+    "codeceptjs": "^2.3.6",
+    "puppeteer": "^2.0.0"
+  }
+}
